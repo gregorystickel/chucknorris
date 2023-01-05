@@ -1,0 +1,15 @@
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}:root{--background:#232323;--lift:#2c2c2c;--faded:#838383;
+  /* !Salmon */
+
+  /* !Blue */--accent:198,76%;--l:51%;
+
+  /* !Orange */
+
+  /* !Pink */
+
+  /* !Purple */
+
+  /* !Green */
+
+  /* !Yellow */--color-primary:hsl(var(--accent),var(--l))}body{background-color:#232323;background-color:var(--background);display:flex;justify-content:center;min-height:100vh;min-width:100vw;overflow-x:hidden}header{background-color:#23a8e1;background-color:var(--color-primary);box-sizing:border-box;height:75px;justify-content:space-evenly;margin-bottom:80px;padding:0 35px;width:100vw}.App,header{align-items:center;color:#fff;display:flex}.App{flex-direction:column;text-align:center;width:60vw}.big-title{color:#23a8e1;color:var(--color-primary);font-size:64px}p{font-size:20px}.word{color:#23a8e1;color:var(--color-primary);font-size:32px}nav{display:flex;flex-direction:row;gap:8px}.nav-btn{background-color:#23a8e1;background-color:var(--color-primary);border-radius:3px;color:#fff;min-width:50px}.nav-btn,.nav-btn:hover{transition:all .05s ease-in-out}.nav-btn:hover{--darken:hsl(var(--accent),calc(var(--l) - 5%));background-color:var(--darken)}button{background-color:initial;border:2px solid #23a8e1;border:2px solid var(--color-primary);border-radius:3px;color:#23a8e1;color:var(--color-primary);font-size:25px;height:45px;margin:10px;min-width:150px}button,button:active{transition:all .1s ease-in-out}button:active{background-color:#23a8e1;background-color:var(--color-primary);color:#fff}input,select{border:none;border-radius:3px;box-sizing:border-box;font-size:18px;height:30px;margin:0;padding:5;width:225px}form{align-items:center;flex-direction:column}.row-container,form{display:flex;gap:8px}.row-container{flex-direction:row;flex-wrap:wrap;width:100%}.col-container{gap:8px}.card,.col-container{display:flex;flex-direction:column}.card{background-color:#2c2c2c;background-color:var(--lift);border-radius:3px;box-shadow:0 3px 10px rgba(0,0,0,.5);box-sizing:border-box;padding:10px;width:300px}.card-image{aspect-ratio:16/9;object-fit:cover;width:300px}.colored-text{color:#23a8e1;color:var(--color-primary)}.red{color:red}.green{color:green}
+/*# sourceMappingURL=main.a78b2644.css.map*/
